@@ -1,0 +1,27 @@
+{
+  "name": "studion",
+  "version": "0.0.1",
+  "description": "Projeto Studion",
+  "main": "src/index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/telmo-bidart/studion.git"
+  },
+  "keywords": [
+    "HTML",
+    "CSS",
+    "Javascript"
+  ],
+  "author": "Telmo Bidart",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/telmo-bidart/studion/issues"
+  },
+  "homepage": "https://github.com/telmo-bidart/studion#readme",
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+}

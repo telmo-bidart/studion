@@ -250,13 +250,76 @@ ul{
     display: grid;
     grid-template-columns: repeat(3, auto);
     align-items: center;
+    padding: 2rem;
 }
 .footer .logo--studion {
     justify-self: start;
 }
+.footer .logo--studion__subtitle {
+    display: block;
+    float: right;
+}
 .footer__form {
     justify-self: center;
+    display: grid;
+    place-items: center;
+    grid-template-columns: 9ch auto;
+}
+.footer__form label {
+    font-size: 0.875rem;
+    font-weight: 300;
+    line-height: 1rem;
+    text-align: center;
+}
+.footer__form fieldset {
+    display: grid;
+    grid-template-columns: auto 3.375rem;
+    border: unset;
+    height: 3.5rem;
+}
+.footer__form input {
+    background-color: var(--color-primary);
+    border: unset;
+    padding: 1rem;
+    font-size: 0.875rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.footer__form input::placeholder {
+    color: #000;
+}
+.footer__form input:focus {
+    outline: unset;
+}
+.footer__form button {
+    border: unset;
+    height: 3rem;
+    cursor: pointer;
+    transition: 0.3s all ease;
+}
+.footer__form button:hover {
+    color: #fff;
+    background-color: var(--color-copy);
 }
 .footer__social {
     justify-self: end;
+}
+.footer__social a, .footer__social a:visited, .footer__social a:active {
+    color: #fff;
+}
+.fa-twitter {
+    color: #000;
+}
+.fa-youtube {
+    color: #000;
+}
+.footer hr {
+    border-color: #fff4;
+}
+.footer p {
+    text-align: center;
+    font-size: 0.875rem;
+    font-weight: 300;
+    margin: 0;
+    margin: 1rem;
 }
